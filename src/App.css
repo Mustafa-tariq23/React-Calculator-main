@@ -1,0 +1,259 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#navbar{
+  border: 2px solid rgb(54, 54, 54);
+  background-color: rgb(54, 54, 54);
+}
+
+#nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-left: -30px;
+}
+li{
+  list-style: none;
+  font-size: 18px;
+}
+
+.Navicon{
+  color: red;
+  text-decoration: none;
+}
+
+#homepage{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url("../src/img.png");
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cont{
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  border: 0.025ch ridge #cfe4ff;
+  border-radius: 5%;
+  padding: 3%;
+  background-color: #cfe4ff;
+}
+.body{
+  background-image: url("../src/img.png");
+  height: 82vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 2%;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+}
+.screen{
+  height: 80px;
+  width: 100%;
+  border: 0.025ch ridge #fbfcfe;
+  border-radius: 5%;
+  font-size: 30px;
+  color: #2d88ff;
+  background-color: #fbfcfe;
+  overflow-x: scroll;
+}
+
+.screen::-webkit-scrollbar {
+  width: 0.25em;
+}
+
+.screen::-webkit-scrollbar-thumb {
+  background-color: transparent; 
+}
+
+#cal-button {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Use repeat for cleaner grid definition */
+  column-gap: 1vw;
+  row-gap: 1vh; /* Add gap between grid items */
+}
+.btn{
+  border: 0.025ch ridge #bddbff;
+  border-radius: 10%;
+  background-color: #bddbff;
+  height: 10vh;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#quotes{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url("../src/img.png");
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1{
+  font-size: 35px;
+  font-weight: bold;
+}
+
+p{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 1115px) {
+  .cont{
+    width: 25%;
+  }
+  .body{
+    height: 100vh;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .cont{
+    width: 28%;
+  }
+  .body{
+    height: 100vh;
+  }
+}
+
+
+@media only screen and (max-width: 900px) {
+  .cont{
+    width: 30%;
+  }
+  .body{
+    height: 100vh;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .cont{
+    width: 40%;
+  }
+  .body{
+    height: 100vh;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .cont{
+    width: 58%;
+  }
+  h1{
+    font-size: 25px;
+  }
+  
+  p{
+    font-size: 21px;
+  }
+  .body{
+    height: 100vh;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .cont{
+    width: 65%;
+  }
+  h1{
+    font-size: 25px;
+  }
+  
+  p{
+    font-size: 20px;
+  }
+  .body{
+    height: 96vh;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .cont{
+    width: 75%;
+  }
+  h1{
+    font-size: 22px;
+  }
+  
+  p{
+    font-size: 18px;
+  }
+  .body{
+    height: 94vh;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .cont{
+    width: 80%;
+  }
+  h1{
+    font-size: 20px;
+  }
+  
+  p{
+    font-size: 15px;
+  }
+  .body{
+    height: 90vh;
+  }
+}
+
+
+
+
+
+
